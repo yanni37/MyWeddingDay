@@ -14,5 +14,6 @@ import { UserEntity } from './models/user.entity';
 ],
   providers: [UserService],
   controllers: [UserController],
+  exports: [UserService],
 })
 export class UserModule {}
